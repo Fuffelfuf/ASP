@@ -1,0 +1,32 @@
+﻿[
+  {
+    "Id": 1,
+    "Gender": "Male",
+    "Name": "John Doe",
+    "Age": 30
+  },
+  {
+    "Id": 2,
+    "Gender": "Female",
+    "Name": "Jane Hops",
+    "Age": 25
+  },
+  {
+    "Id": 3,
+    "Gender": "Male",
+    "Name": "Mike Johnson",
+    "Age": 40
+  },
+  {
+    "Id": 4,
+    "Gender": "Female",
+    "Name": "Alice White",
+    "Age": 22
+  },
+  {
+    "Id": 5,
+    "Gender": "Male",
+    "Name": "Steven King",
+    "Age": 38
+  }
+]
