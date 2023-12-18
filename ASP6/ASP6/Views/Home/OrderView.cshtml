@@ -1,0 +1,14 @@
+﻿@model  ASP6.Models.OrderAmount
+
+<h2>Order View</h2>
+
+<form method="post" action="/Home/OrderCreate">
+    <p>
+        <label>Скільки одиниць товару ви бажаєте замовити?</label><br />
+        <input type="number" name="Amount" />
+    </p>
+
+    <p>
+        <input type="submit" value="Надіслати" />
+    </p>
+</form>

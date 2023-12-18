@@ -1,0 +1,10 @@
+﻿@model List<ASP6.Models.OrderModel>
+
+<h2>Order Summary</h2>
+
+<ul>
+    @foreach (var order in Model)
+    {
+        <li>Продукт:@order.ProductName - Кількість: @order.Amount</li>
+    }
+</ul>

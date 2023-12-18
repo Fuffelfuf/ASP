@@ -1,0 +1,19 @@
+﻿@model ASP6.Models.User
+
+<form method="post">
+
+    <p>
+        <label>Ім'я</label><br />
+        <input type="text" name="Name" value="@Model.Name" />
+    </p>
+
+    <p>
+        <label>Вік</label><br />
+        <input type="number" name="Age" value="@Model.Age" />
+    </p>
+
+    <p>
+        <input type="submit" value="Надіслати" />
+    </p>
+
+</form>

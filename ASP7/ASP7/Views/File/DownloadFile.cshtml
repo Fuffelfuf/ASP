@@ -1,0 +1,23 @@
+﻿@{
+    ViewData["Title"] = "Download File";
+}
+
+<h2>Download File</h2>
+
+<form method="post" action="/File/CreateFile">
+    <p>
+        <label for="firstName">Ім'я:</label>
+        <input type="text" name="name" required />
+    </p>
+    <p>
+        <label for="lastName">Прізвище:</label>
+        <input type="text" name="surname" required />
+    </p>
+    <p>
+        <label for="fileName">Назва файлу:</label>
+        <input type="text" name="filename" required />
+    </p>
+    <p>
+        <button type="submit">Продовжити</button>
+    </p>
+</form>

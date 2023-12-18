@@ -1,0 +1,8 @@
+﻿<h2>Product List</h2>
+
+<ul>
+    @foreach (var product in Model)
+    {
+        <li>@product.ID. @product.Name - @product.Price$ (@product.CreatedDate.ToShortDateString())</li>
+    }
+</ul>
